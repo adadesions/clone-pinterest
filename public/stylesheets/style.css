@@ -22,11 +22,34 @@ a {
   padding-bottom: 10px;
 }
 
-.card:hover .my-btn {
+.top-btn {
+  display: none;
+}
+
+#btn-share {
+  bottom: 5.5em;
+  right: 4.5em;
+}
+
+#btn-more {
+  bottom: 5.5em;
+  right: 1em;
+}
+
+#btn-save {
+  top: 1em;
+  right: 1em;
+
+}
+
+.card:hover .my-btn{
   display: inline-block;
   position: absolute;
-  top: 15px;
-  right: 30px;
+}
+
+.card:hover .top-btn {
+  display: inline;
+  position: absolute;
 }
 
 .my-img:hover {

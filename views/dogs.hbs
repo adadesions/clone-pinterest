@@ -4,13 +4,33 @@
 
         <div class="card">
             <img src="{{this}}" class="card-img-top my-img" alt="...">
+
+            <div id="btn-save" class="top-btn">
+                <div class="dropdown float-left">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Location
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-danger">
+                    Save
+                </button>
+            </div>
             
-            <button type="button" class="btn btn-success my-btn">
+            <button type="button" id="btn-share" class="btn btn-success my-btn">
                 <i class="far fa-share-square"></i>
             </button>
 
+            <button type="button" id="btn-more" class="btn btn-success my-btn">
+                <i class="fas fa-ellipsis-h"></i>
+            </button>
+
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">{{this}}</p>
             </div>
         </div>
 
