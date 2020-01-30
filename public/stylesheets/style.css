@@ -17,9 +17,18 @@ a {
 }
 
 .my-btn {
+  display: none;
+}
+
+.card:hover .my-btn {
+  display: inline-block;
   position: absolute;
   top: 15px;
   right: 30px;
+}
+
+.my-img:hover {
+  filter: grayscale(1);
 }
 
 /* .card {
